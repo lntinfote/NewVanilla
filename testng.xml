@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+
+
+	<listeners>
+		<listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/> 
+		<!--  <listener class-name="com.frame.qa.utils.ListenerClass" />  -->
+	</listeners>
+
+    <test  name="Chrometest">
+  	<parameter name="platform" value="web"></parameter>
+  	<parameter name="browser" value="Chrome"></parameter>
+  
+  	 <classes>
+       <class name="com.frame.qa.sampleTestcases.StoreHomePageTest"/>
+    </classes>  
+ </test>  
+  
+   <!-- <test name="FirefoxTest">
+	<parameter name="platform" value="web"></parameter>
+  	<parameter name="browser" value="FF"></parameter>
+  		<classes>
+		       <class name="com.frame.qa.sampleTestcases.StoreHomePageTest">
+	</class>
+</classes>
+</test>      
+
+<test  name="Chrometest2">
+  	<parameter name="platform" value="web"></parameter>
+  	<parameter name="browser" value="Chrome"></parameter>
+  
+  	 <classes>
+       <class name="com.frame.qa.sampleTestcases.StoreLandingPageTest"/>
+    </classes>  
+ </test>  
+  
+   <test name="FirefoxTest2">
+	<parameter name="platform" value="web"></parameter>
+  	<parameter name="browser" value="FF"></parameter>
+  		<classes>
+		       <class name="com.frame.qa.sampleTestcases.StoreLandingPageTest">
+	</class>
+</classes>
+</test>     
+
+ <test  name="Chrometest3">
+  	<parameter name="platform" value="web"></parameter>
+  	<parameter name="browser" value="Chrome"></parameter>
+  
+  	 <classes>
+       <class name="com.frame.qa.sampleTestcases.StoreHomePageTest"/>
+    </classes>  
+ </test>  
+ -->
+</suite> 
+
+<!-- Suite -->
+ 
